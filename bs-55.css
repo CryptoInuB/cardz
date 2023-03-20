@@ -123,7 +123,7 @@
 	--bs-breakpoint-xxl: 1400px;
 }
 
-.bs-5 [data-bs-theme=dark] {
+.bs-5[data-bs-theme=dark] {
 	--bs-body-color: #adb5bd;
 	--bs-body-color-rgb: 173,181,189;
 	--bs-body-bg: #212529;
@@ -173,7 +173,7 @@
 	--bs-border-color-translucent: rgba(255, 255, 255, 0.15);
 }
 
-.bs-5 *,.bs-5 *::before,.bs-5 *::after {
+.bs-5 *, .bs-5 * ::before, .bs-5 * ::after {
 	box-sizing: border-box;
 }
 
@@ -288,7 +288,7 @@
 	margin-bottom: 1rem;
 }
 
-.bs-5 ol .bs-5 ol,.bs-5 ol .bs-5 ul,.bs-5 ul .bs-5 ol,.bs-5 ul .bs-5 ul {
+.bs-5 ol ol,.bs-5 ol ul,.bs-5 ul ol,.bs-5 ul ul {
 	margin-bottom: 0;
 }
 
@@ -414,7 +414,7 @@
 	text-align: -webkit-match-parent;
 }
 
-tbody,td,tfoot,th,thead,tr {
+.bs-5 tbody,.bs-5 td,.bs-5 tfoot,.bs-5 th,.bs-5 thead,.bs-5 tr {
 	border-color: inherit;
 	border-style: solid;
 	border-width: 0;
